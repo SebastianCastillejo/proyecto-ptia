@@ -1,0 +1,61 @@
+|--- fraccion_principales_cubiertos <= 0.16
+|   |--- aprovechamiento <= 0.44
+|   |   |--- n_ingredientes_usuario <= -1.05
+|   |   |   |--- n_ingredientes_usuario <= -1.45
+|   |   |   |   |--- class: 1
+|   |   |   |--- n_ingredientes_usuario >  -1.45
+|   |   |   |   |--- n_ingredientes_receta <= -0.65
+|   |   |   |   |   |--- cobertura <= -0.11
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cobertura >  -0.11
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- n_ingredientes_receta >  -0.65
+|   |   |   |   |   |--- cobertura <= -1.04
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- cobertura >  -1.04
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- n_ingredientes_usuario >  -1.05
+|   |   |   |--- class: 0
+|   |--- aprovechamiento >  0.44
+|   |   |--- n_ingredientes_usuario <= -1.45
+|   |   |   |--- principales_faltantes <= 1.41
+|   |   |   |   |--- n_ingredientes_usuario <= -2.26
+|   |   |   |   |   |--- n_ingredientes_receta <= -1.08
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- n_ingredientes_receta >  -1.08
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- n_ingredientes_usuario >  -2.26
+|   |   |   |   |   |--- aprovechamiento <= 1.35
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- aprovechamiento >  1.35
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- principales_faltantes >  1.41
+|   |   |   |   |--- aprovechamiento <= 1.35
+|   |   |   |   |   |--- tiempo <= -0.11
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- tiempo >  -0.11
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- aprovechamiento >  1.35
+|   |   |   |   |   |--- tiempo <= 0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- tiempo >  0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- n_ingredientes_usuario >  -1.45
+|   |   |   |--- aprovechamiento <= 0.88
+|   |   |   |   |--- n_ingredientes_usuario <= -0.03
+|   |   |   |   |   |--- principales_faltantes <= 1.41
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- principales_faltantes >  1.41
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- n_ingredientes_usuario >  -0.03
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- aprovechamiento >  0.88
+|   |   |   |   |--- principales_faltantes <= 2.77
+|   |   |   |   |   |--- n_ingredientes_receta <= 1.07
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- n_ingredientes_receta >  1.07
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- principales_faltantes >  2.77
+|   |   |   |   |   |--- class: 0
+|--- fraccion_principales_cubiertos >  0.16
+|   |--- class: 1

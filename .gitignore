@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+__pycache__/
+.venv/
+*.pyc
+__pycache__/
+*.db
+*.db-shm
+*.db-wal
+frontend/frontend/
+PTIA Aprendizaje*.docx
+backend/datos/crudo/
+backend/datos/procesado/*.parquet
+backend/ml/modelos/*.joblib
+backend/ml/dataset_pares.parquet
+backend/ml/resultados/*.png

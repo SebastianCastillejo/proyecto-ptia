@@ -1,0 +1,32 @@
+{
+  "numero_listas": 99,
+  "reglas": {
+    "precision_at_5": 0.37373737373737376,
+    "acierto_primero": 0.7474747474747475,
+    "original_top5": 0.9696969696969697,
+    "promedio_recetas": 3.7777777777777777,
+    "latencia_media_ms": 65.52358787986591,
+    "latencia_p95_ms": 64.64582991320638
+  },
+  "modelo_elegido": {
+    "precision_at_5": 0.37373737373737376,
+    "acierto_primero": 0.5454545454545454,
+    "original_top5": 0.7878787878787878,
+    "promedio_recetas": 3.7777777777777777,
+    "latencia_media_ms": 172.96199797948992,
+    "latencia_p95_ms": 489.259980013594
+  },
+  "normalizacion": {
+    "casos": 150,
+    "exactitud": 1.0,
+    "fallos": []
+  },
+  "metas": {
+    "precision_at_5": false,
+    "precision_at_5_reglas": false,
+    "normalizacion": true,
+    "latencia_p95": true
+  },
+  "cambio_ranking_sustitucion": true,
+  "nota_sustituciones": "La precisión no se calcula hasta que el equipo complete valida_si_no en sustituciones_revision.csv."
+}
